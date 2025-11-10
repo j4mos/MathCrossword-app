@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "github-mcp",
+      "args": [],
+      "env": {
+        "GITHUB_TOKEN": "${{ env.GITHUB_MCP_PAT }}"
+      }
+    },
+    "contest7": {
+      "command": "contest7-mcp",
+      "args": [],
+      "env": {}
+    }
+  },
+  "tools": [
+    { "server": "github", "name": "fs.read" },
+    { "server": "github", "name": "fs.write" },
+    { "server": "github", "name": "git.createPullRequest" },
+    { "server": "github", "name": "git.commentPR" },
+    { "server": "contest7", "name": "knowledge.search" },
+    { "server": "contest7", "name": "rubric.apply" }
+  ],
+  "policies": {
+    "maxTokens": 4000,
+    "allowShell": false,
+    "requirePRs": true
+  }
+}

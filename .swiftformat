@@ -1,0 +1,3 @@
+--swiftversion 5.9
+--maxwidth 140
+--stripunusedargs closure-only

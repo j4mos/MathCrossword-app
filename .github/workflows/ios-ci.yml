@@ -1,0 +1,59 @@
+name: iOS CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app
+
+      - name: Cache SPM
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/Library/Developer/Xcode/DerivedData
+            .build
+          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+          restore-keys: ${{ runner.os }}-spm-
+
+      - name: Lint (SwiftLint optional)
+        run: |
+          if command -v swiftlint >/dev/null 2>&1; then
+            swiftlint
+          else
+            echo "SwiftLint not installed on runner; skipping."
+          fi
+
+      - name: Build & Test (Simulator)
+        run: |
+          xcodebuild -scheme "MathCrossword" \
+            -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
+            -enableCodeCoverage YES \
+            clean test \
+            | xcpretty && exit ${PIPESTATUS[0]}
+
+      - name: Store xcresult
+        if: always()
+        run: |
+          mkdir -p artifacts
+          find ~/Library/Developer/Xcode/DerivedData -type d -name "*.xcresult" -print -quit | \
+            xargs -I {} cp -R "{}" artifacts/TestResults.xcresult
+        continue-on-error: true
+
+      - name: Coverage Gate (≥ 0.90)
+        run: |
+          # Simple gate via xccov (Xcode tool)
+          FILE=$(find artifacts -name "*.xcresult" -print -quit)
+          if [ -z "$FILE" ]; then
+            echo "No xcresult found" && exit 1
+          fi
+          COV=$(xcrun xccov view --report --only-targets "$FILE" | awk '{sum+=$3} END {print sum/NR}')
+          echo "Average target coverage: $COV"
+          awk -v cov="$COV" 'BEGIN { if (cov+0 < 0.90) exit 1 }'
