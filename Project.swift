@@ -33,7 +33,10 @@ let project = Project(
             bundleId: "net.j4mos.MathCrosswordEngineTests",
             deploymentTargets: .iOS("17.0"),
             sources: ["Tests/**"],
-            dependencies: [.target(name: "MathCrosswordEngine")]
+            dependencies: [
+                .target(name: "MathCrosswordEngine"),
+                .target(name: "MathCrossword")
+            ]
         )
     ]
 )

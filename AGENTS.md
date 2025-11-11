@@ -5,11 +5,12 @@
 - `MathCrosswordEngine`: pure Swift puzzle logic plus docs in `MathCrosswordEngine.docc`; resources house puzzle fixtures.
 - `Tests`: XCTest target mirrors the engine; keep helpers next to the spec using them.
 - Tooling resides in `Project.swift` (Tuist), `.swiftlint.yml`, `.swiftformat`, `.github/workflows/ios-ci.yml`, and `.codex/` for local agent config.
+- Curricula & didaktische Leitplanken dokumentiert in `CONTENT.md`.
 
 ## Build, Test & Development Commands
 - `tuist generate`: regenerate the Xcode project/workspace after touching manifests or adding files outside Xcode.
 - `xed MathCrossword.xcworkspace`: open the workspace that wires the app, engine, and tests.
-- `xcodebuild test -workspace MathCrossword.xcworkspace -scheme MathCrosswordEngineTests -destination 'platform=iOS Simulator,name=iPhone 15'`: CI-parity test run.
+- `xcodebuild test -workspace MathCrossword.xcworkspace -scheme MathCrosswordEngineTests -destination 'platform=iOS Simulator,name=iPhone 17 Pro'`: CI-parity test run.
 - `swift test --target MathCrosswordEngine`: smoke tests for the framework without booting the UI target.
 - `swiftformat .` and `swiftlint --strict`: enforce the rules captured in the repo configs before committing.
 
@@ -23,6 +24,7 @@
 - Maintain ≥90% coverage (check via Xcode’s report or `xccov show`); add deterministic seed tests whenever generator logic changes.
 - UI or snapshot tests belong in the same `Tests` target guarded by `#if DEBUG`.
 - Update fixtures under `MathCrosswordEngine/Resources` whenever puzzle formats change.
+- Reference `TESTING.md` for the current strategy and commands.
 
 ## Commit & Pull Request Guidelines
 - Git history favors short, imperative subjects (e.g., `Add deterministic generator seed`) with optional 72-character bodies referencing issues (`#42`).

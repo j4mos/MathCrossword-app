@@ -26,34 +26,45 @@ jobs:
       - name: Lint (SwiftLint optional)
         run: |
           if command -v swiftlint >/dev/null 2>&1; then
-            swiftlint
+            swiftlint --no-cache
           else
             echo "SwiftLint not installed on runner; skipping."
           fi
 
       - name: Build & Test (Simulator)
         run: |
+          mkdir -p artifacts
           xcodebuild -scheme "MathCrossword" \
-            -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
+            -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=latest' \
             -enableCodeCoverage YES \
+            -resultBundlePath artifacts/TestResults.xcresult \
             clean test \
             | xcpretty && exit ${PIPESTATUS[0]}
 
-      - name: Store xcresult
-        if: always()
-        run: |
-          mkdir -p artifacts
-          find ~/Library/Developer/Xcode/DerivedData -type d -name "*.xcresult" -print -quit | \
-            xargs -I {} cp -R "{}" artifacts/TestResults.xcresult
-        continue-on-error: true
-
       - name: Coverage Gate (≥ 0.90)
         run: |
-          # Simple gate via xccov (Xcode tool)
-          FILE=$(find artifacts -name "*.xcresult" -print -quit)
-          if [ -z "$FILE" ]; then
+          FILE=artifacts/TestResults.xcresult
+          if [ ! -f "$FILE" ]; then
             echo "No xcresult found" && exit 1
           fi
           COV=$(xcrun xccov view --report --only-targets "$FILE" | awk '{sum+=$3} END {print sum/NR}')
           echo "Average target coverage: $COV"
           awk -v cov="$COV" 'BEGIN { if (cov+0 < 0.90) exit 1 }'
+
+      - name: Coverage Report
+        if: always()
+        run: |
+          FILE=artifacts/TestResults.xcresult
+          if [ -f "$FILE" ]; then
+            xcrun xccov view --report "$FILE" > artifacts/coverage.txt
+            xcrun xccov view --json "$FILE" > artifacts/coverage.json
+          else
+            echo "xcresult missing; skipping coverage artifact."
+          fi
+
+      - name: Upload Test Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-test-results
+          path: artifacts

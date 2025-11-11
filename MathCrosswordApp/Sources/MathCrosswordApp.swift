@@ -2,10 +2,12 @@ import SwiftUI
 
 @main
 struct MathCrosswordApp: App {
+    @StateObject private var store = GameStore()
+
     var body: some Scene {
         WindowGroup {
-            Text("Hello MathCrossword")
-                .padding()
+            ContentView()
+                .environmentObject(store)
         }
     }
 }
