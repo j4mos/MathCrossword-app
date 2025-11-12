@@ -1,26 +1,23 @@
-// Tests/GeneratorTests.swift
+import MathCrosswordEngine
 import XCTest
-@testable import MathCrosswordEngine
 
 final class GeneratorTests: XCTestCase {
-    func test_generate_easy_returnsPuzzle() throws {
-        let sut = Generator()
-        let puzzle = try sut.generate(difficulty: .grade4_easy, seed: 42)
-        XCTAssertEqual(puzzle.grid.width, 3)
-        XCTAssertTrue(puzzle.cluesAcross.allSatisfy { $0.operation == .add })
-        XCTAssertTrue(puzzle.cluesDown.allSatisfy { $0.operation == .add })
-    }
+    func testGeneratorProducesUniqueGrade4Boards() throws {
+        let generator = MCGenerator()
+        let solver = BacktrackingMCSolver()
+        let validator = MCValidator()
 
-    func test_generate_hard_usesAdvancedOperations() throws {
-        let sut = Generator()
-        let puzzle = try sut.generate(difficulty: .grade4_hard, seed: 1337)
-        XCTAssertTrue(puzzle.allClues.contains { [.mul, .div].contains($0.operation) })
-    }
+        for seed in 0..<10 {
+            let board = try generator.generate(difficulty: .grade4, seed: UInt64(seed))
+            XCTAssertEqual(board.blankPositions.count, board.bank.count)
+            XCTAssertTrue(board.bank.allSatisfy { (1...50).contains($0) })
 
-    func test_generate_isDeterministicForSeed() throws {
-        let sut = Generator()
-        let first = try sut.generate(difficulty: .grade4_std, seed: 7)
-        let second = try sut.generate(difficulty: .grade4_std, seed: 7)
-        XCTAssertEqual(first, second)
+            guard case let .unique(solution) = solver.solve(board: board) else {
+                return XCTFail("Expected unique solution for generated board")
+            }
+
+            let validation = try validator.validate(board: board, assignment: solution)
+            XCTAssertTrue(validation.isSatisfied)
+        }
     }
 }

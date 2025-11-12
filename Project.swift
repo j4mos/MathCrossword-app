@@ -38,5 +38,24 @@ let project = Project(
                 .target(name: "MathCrossword")
             ]
         )
+    ],
+    schemes: [
+        .scheme(
+            name: "MathCrosswordEngineTests",
+            shared: true,
+            buildAction: .buildAction(targets: [
+                "MathCrossword",
+                "MathCrosswordEngine",
+                "MathCrosswordEngineTests"
+            ]),
+            testAction: .targets(
+                ["MathCrosswordEngineTests"],
+                configuration: "Debug",
+                options: .options(
+                    coverage: true,
+                    codeCoverageTargets: ["MathCrosswordEngine"]
+                )
+            )
+        )
     ]
 )
