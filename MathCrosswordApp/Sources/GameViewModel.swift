@@ -26,7 +26,7 @@ final class GameViewModel: ObservableObject {
 
     private let generator = MCGenerator()
     private let validator = MCValidator()
-    private var timer: Timer?
+    private var timerTask: Task<Void, Never>?
     private var timerAnchor: Date?
     private var accumulated: TimeInterval = 0
     private var targetPositions: Set<MCPos> = []
@@ -188,21 +188,28 @@ final class GameViewModel: ObservableObject {
 
     private func startTimerIfNeeded(force: Bool) {
         guard !isPaused else { return }
-        guard timer == nil else { return }
+        guard timerTask == nil else { return }
         if placements.isEmpty && accumulated == 0 && !force { return }
         if placements.isEmpty && accumulated == 0 && force { return }
         timerAnchor = Date()
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
-            self?.tick()
-        }
-        if let timer {
-            RunLoop.main.add(timer, forMode: .common)
+        timerTask = Task.detached(priority: .userInitiated) { [weak self] in
+            while !Task.isCancelled {
+                do {
+                    try await Task.sleep(nanoseconds: 1_000_000_000)
+                } catch {
+                    break
+                }
+                guard let self else { return }
+                await MainActor.run {
+                    self.tick()
+                }
+            }
         }
     }
 
     private func stopTimer() {
-        timer?.invalidate()
-        timer = nil
+        timerTask?.cancel()
+        timerTask = nil
         if let anchor = timerAnchor {
             accumulated += Date().timeIntervalSince(anchor)
             timerAnchor = nil
@@ -211,8 +218,8 @@ final class GameViewModel: ObservableObject {
     }
 
     private func resetTimer() {
-        timer?.invalidate()
-        timer = nil
+        timerTask?.cancel()
+        timerTask = nil
         timerAnchor = nil
         accumulated = 0
         elapsed = 0
@@ -244,20 +251,13 @@ final class GameViewModel: ObservableObject {
     }
 
     deinit {
-        timer?.invalidate()
+        timerTask?.cancel()
     }
 
     private static func makeBoard(generator: MCGenerator) async throws -> MCBoard {
-        try await withCheckedThrowingContinuation { continuation in
-            DispatchQueue.global(qos: .userInitiated).async {
-                do {
-                    let board = try generator.generate(difficulty: .grade4)
-                    continuation.resume(returning: board)
-                } catch {
-                    continuation.resume(throwing: error)
-                }
-            }
-        }
+        try await Task.detached(priority: .userInitiated) {
+            try generator.generate(difficulty: .grade4)
+        }.value
     }
 }
 
