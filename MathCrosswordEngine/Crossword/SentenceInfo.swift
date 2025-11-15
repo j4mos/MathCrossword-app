@@ -28,7 +28,11 @@ struct SentenceInfo {
 
         self.numberPositions = numbers
         self.operations = ops
-        self.blankSet = Set(numbers.filter { board.at($0).blankID != nil })
+        var blanks = Set(numbers.filter { board.at($0).blankID != nil })
+        if board.at(sentence.targetPos).blankID != nil {
+            blanks.insert(sentence.targetPos)
+        }
+        self.blankSet = blanks
     }
 
     func involves(_ pos: MCPos) -> Bool {

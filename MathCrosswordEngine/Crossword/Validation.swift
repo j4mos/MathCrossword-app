@@ -16,7 +16,7 @@ public struct MCValidator {
         var conflicts = Set<MCPos>()
         for sentence in sentences {
             guard let value = evaluator.evaluate(sentence: sentence, board: board, assignment: assignment),
-                  let target = board.at(sentence.targetPos).fixedNumber
+                  let target = board.value(at: sentence.targetPos, assignment: assignment)
             else {
                 if isSentenceComplete(sentence, board: board, assignment: assignment) {
                     conflicts.insert(sentence.equalsPos)
@@ -47,6 +47,6 @@ public struct MCValidator {
                 return false
             }
         }
-        return true
+        return board.value(at: sentence.targetPos, assignment: assignment) != nil
     }
 }

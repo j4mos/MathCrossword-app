@@ -33,7 +33,7 @@ public struct MCSentenceExtractor {
         let delta = orientation == .horizontal ? (dr: 0, dc: 1) : (dr: 1, dc: 0)
         let targetPos = MCPos(r: equalsPos.r + delta.dr, c: equalsPos.c + delta.dc)
         guard board.isInside(targetPos) else { return nil }
-        guard case .fixedNumber = board.at(targetPos) else { return nil }
+        guard board.at(targetPos).isNumberSlot else { return nil }
 
         let backward = orientation == .horizontal
             ? (dr: 0, dc: -1)
