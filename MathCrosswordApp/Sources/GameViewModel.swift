@@ -270,10 +270,10 @@ private extension MCBoard {
                 guard case .equals = at(pos) else { continue }
                 let right = MCPos(r: pos.r, c: pos.c + 1)
                 let down = MCPos(r: pos.r + 1, c: pos.c)
-                if isInside(right), case .fixedNumber = at(right) {
+                if isInside(right), at(right).isNumberSlot {
                     result.insert(right)
                 }
-                if isInside(down), case .fixedNumber = at(down) {
+                if isInside(down), at(down).isNumberSlot {
                     result.insert(down)
                 }
             }

@@ -28,25 +28,13 @@ public final class MCGenerator: @unchecked Sendable {
 private enum PrecomputedBoards {
     static let grade4: MCBoard = {
         var board = MCTemplateFactory.makeMiddleTemplate()
-        for (pos, value) in grade4Targets {
-            board.set(.fixedNumber(value), at: pos)
-        }
         board.bank = grade4Bank
         return board
     }()
 
-    private static let grade4Targets: [MCPos: Int] = [
-        MCPos(r: 1, c: 9): 31,
-        MCPos(r: 3, c: 9): 30,
-        MCPos(r: 5, c: 9): 44,
-        MCPos(r: 7, c: 9): 78,
-        MCPos(r: 9, c: 1): 85,
-        MCPos(r: 9, c: 3): 99,
-        MCPos(r: 9, c: 5): 27,
-        MCPos(r: 9, c: 7): 1
+    private static let grade4Bank = [
+        12, 7, 33, 6, 11, 29, 9, 1, 32
     ]
-
-    private static let grade4Bank = [8, 2, 9, 7, 4, 10, 6, 1, 13, 5, 3, 11]
 }
 
 private struct SeededGenerator: RandomNumberGenerator {

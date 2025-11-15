@@ -85,6 +85,10 @@ public final class BacktrackingMCSolver: MCSolver {
                     order.append(pos)
                 }
             }
+            let target = info.sentence.targetPos
+            if board.at(target).blankID != nil, seen.insert(target).inserted {
+                order.append(target)
+            }
         }
         return order
     }
@@ -142,8 +146,8 @@ public final class BacktrackingMCSolver: MCSolver {
         guard let result = acc, opIndex == info.operations.count else {
             return .needsMore
         }
-        guard let target = board.at(info.sentence.targetPos).fixedNumber else {
-            return .invalid
+        guard let target = board.value(at: info.sentence.targetPos, assignment: assignment) else {
+            return .needsMore
         }
         return result == target ? .satisfied : .invalid
     }

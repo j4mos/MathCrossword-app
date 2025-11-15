@@ -11,9 +11,8 @@ public struct MCEvaluator {
     }
 
     public func satisfies(sentence: MCSentence, board: MCBoard, assignment: [MCPos: Int]) -> Bool {
-        guard
-            let target = board.at(sentence.targetPos).fixedNumber,
-            let value = evaluate(sentence: sentence, board: board, assignment: assignment)
+        guard let target = board.value(at: sentence.targetPos, assignment: assignment),
+              let value = evaluate(sentence: sentence, board: board, assignment: assignment)
         else {
             return false
         }
