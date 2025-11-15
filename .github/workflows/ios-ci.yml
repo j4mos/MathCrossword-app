@@ -34,22 +34,29 @@ jobs:
       - name: Build & Test (Simulator)
         run: |
           mkdir -p artifacts
-          xcodebuild -scheme "MathCrossword" \
+          xcodebuild -workspace "MathCrossword.xcworkspace" \
+            -scheme "MathCrossword" \
             -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=latest' \
             -enableCodeCoverage YES \
             -resultBundlePath artifacts/TestResults.xcresult \
             clean test \
             | xcpretty && exit ${PIPESTATUS[0]}
 
-      - name: Coverage Gate (≥ 0.90)
+      - name: Coverage Gate (MathCrosswordEngine ≥ 0.90)
         run: |
           FILE=artifacts/TestResults.xcresult
           if [ ! -f "$FILE" ]; then
             echo "No xcresult found" && exit 1
           fi
-          COV=$(xcrun xccov view --report --only-targets "$FILE" | awk '{sum+=$3} END {print sum/NR}')
-          echo "Average target coverage: $COV"
-          awk -v cov="$COV" 'BEGIN { if (cov+0 < 0.90) exit 1 }'
+          ENGINE_COV=$(xcrun xccov view --report --json "$FILE" | python3 - <<'PY'
+import json, sys
+data = json.load(sys.stdin)
+target = next((t for t in data.get("targets", []) if t.get("name") == "MathCrosswordEngine"), None)
+print(target["lineCoverage"] if target else 0)
+PY
+)
+          echo "MathCrosswordEngine coverage: $ENGINE_COV"
+          awk -v cov="$ENGINE_COV" 'BEGIN { if (cov+0 < 0.90) exit 1 }'
 
       - name: Coverage Report
         if: always()

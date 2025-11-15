@@ -1,21 +1,22 @@
 # Testing Strategy
 
 ## Unit Tests
-- `MathCrosswordEngineTests` host deterministic cases for the generator, solver, validator, and models.
-- Edge cases covered:
-  - Invalid clue references, result mismatches, uniqueness coverage.
-  - Solver branching for multiple/no-solution scenarios.
-  - GameStore logic for UI state transitions.
+- `ExtractionTests`, `EvalTests`, `SolverTests`, `GeneratorTests`, and `ModelRoundtripTests` live in the `MathCrosswordEngineTests` target.
+- Coverage highlights:
+  - Horizontal & vertical sentence extraction.
+  - Left-to-right arithmetic evaluation including exact-division guard rails.
+  - Solver uniqueness vs. multi-solution detection on constrained boards.
+  - Generator loop sanity (10 seeded boards validated + solved).
+  - JSON round-trips for the board model to guarantee persistence stability.
 
-Run: `xcodebuild -project MathCrossword.xcodeproj -scheme MathCrosswordEngineTests test`
+Run locally (CI-parity):  
+`xcodebuild test -workspace MathCrossword.xcworkspace -scheme MathCrosswordEngineTests -destination 'platform=iOS Simulator,name=iPhone 17 Pro'`
 
 ## Integration
-- `IntegrationTests.swift` ensures the pipeline `generate -> solve -> validate` stays intact for every difficulty seed.
-- Failing pipeline tests indicate regressions in either heuristics or validator expectations.
+- Generator tests double as pipeline checks (`generate -> solve -> validate`). Failures indicate regressions in either heuristics or domain rules.
 
 ## UI Coverage
-- Lightweight UI tests instantiate SwiftUI views (StartView, BoardView state) via `UIHostingController`.
-- Board error-highlighting is asserted through the shared `GameStore` to provide confidence without a heavy snapshot dependency.
+- SwiftUI surface (`CrosswordView` + `GameViewModel`) is exercised manually: drag/drop from the number bank, pause/resume timer, and restart cycles. No automated UI harness yet; once we stabilize layouts, snapshot tests can assert styling plus VoiceOver copy.
 
 ## Coverage Gate
 - CI enforces ≥90% line coverage via `xcrun xccov` (see `.github/workflows/ios-ci.yml`).

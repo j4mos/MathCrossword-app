@@ -9,7 +9,10 @@ let project = Project(
             product: .framework,
             bundleId: "net.j4mos.MathCrosswordEngine",
             deploymentTargets: .iOS("17.0"),
-            sources: ["MathCrosswordEngine/**"]
+            sources: ["MathCrosswordEngine/**"],
+            settings: .settings(base: [
+                "GENERATE_APPINTENTS_METADATA": "NO"
+            ])
         ),
         .target(
             name: "MathCrossword",
@@ -24,7 +27,10 @@ let project = Project(
             ]),
             sources: ["MathCrosswordApp/Sources/**"],
             resources: ["MathCrosswordApp/Resources/**"],
-            dependencies: [.target(name: "MathCrosswordEngine")]
+            dependencies: [.target(name: "MathCrosswordEngine")],
+            settings: .settings(base: [
+                "GENERATE_APPINTENTS_METADATA": "NO"
+            ])
         ),
         .target(
             name: "MathCrosswordEngineTests",
@@ -37,6 +43,25 @@ let project = Project(
                 .target(name: "MathCrosswordEngine"),
                 .target(name: "MathCrossword")
             ]
+        )
+    ],
+    schemes: [
+        .scheme(
+            name: "MathCrosswordEngineTests",
+            shared: true,
+            buildAction: .buildAction(targets: [
+                "MathCrossword",
+                "MathCrosswordEngine",
+                "MathCrosswordEngineTests"
+            ]),
+            testAction: .targets(
+                ["MathCrosswordEngineTests"],
+                configuration: "Debug",
+                options: .options(
+                    coverage: true,
+                    codeCoverageTargets: ["MathCrosswordEngine"]
+                )
+            )
         )
     ]
 )
