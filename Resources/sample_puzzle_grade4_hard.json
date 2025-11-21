@@ -1,0 +1,629 @@
+{
+  "id": "sample-grade4-hard",
+  "gradeLevel": "grade4",
+  "difficultyLabel": "Hard",
+  "gridWidth": 7,
+  "gridHeight": 6,
+  "cells": [
+    {
+      "id": "13b48ece-3163-4e84-9e90-485744ca1fc7",
+      "coordinate": {
+        "row": 0,
+        "column": 0
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "90192873-0377-442e-802c-aab6efda1039",
+      "coordinate": {
+        "row": 0,
+        "column": 1
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "27e2e831-fc23-4e8a-a1e8-2ceb6124cb21",
+      "coordinate": {
+        "row": 0,
+        "column": 2
+      },
+      "type": {
+        "kind": "operator",
+        "value": "+"
+      }
+    },
+    {
+      "id": "a915e863-5f98-4251-a687-82bd3c175826",
+      "coordinate": {
+        "row": 0,
+        "column": 3
+      },
+      "type": {
+        "kind": "fixedNumber",
+        "value": 8
+      }
+    },
+    {
+      "id": "120bc623-9840-4282-9907-198f3ee63ed2",
+      "coordinate": {
+        "row": 0,
+        "column": 4
+      },
+      "type": {
+        "kind": "equals"
+      }
+    },
+    {
+      "id": "b7322ca8-85fb-4ebc-88b2-dec716e56d3d",
+      "coordinate": {
+        "row": 0,
+        "column": 5
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "b588e49f-3543-4e9a-98c8-24a19808200c",
+      "coordinate": {
+        "row": 0,
+        "column": 6
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "7e116c9b-15d0-4bfe-85d1-e159edb82fc3",
+      "coordinate": {
+        "row": 1,
+        "column": 0
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "05790ae0-d7c8-4b06-a730-8669df88e30e",
+      "coordinate": {
+        "row": 1,
+        "column": 1
+      },
+      "type": {
+        "kind": "operator",
+        "value": "\u00d7"
+      }
+    },
+    {
+      "id": "d217e855-0219-47e1-a218-f63cda668725",
+      "coordinate": {
+        "row": 1,
+        "column": 2
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "d51b6e56-2561-42a1-a74b-c730fa963eec",
+      "coordinate": {
+        "row": 1,
+        "column": 3
+      },
+      "type": {
+        "kind": "operator",
+        "value": "+"
+      }
+    },
+    {
+      "id": "e1f9b3be-4981-47fb-9bac-1f2a67a0954a",
+      "coordinate": {
+        "row": 1,
+        "column": 4
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "a716d333-cb4c-49b0-ba20-cc9c9ee55cdc",
+      "coordinate": {
+        "row": 1,
+        "column": 5
+      },
+      "type": {
+        "kind": "equals"
+      }
+    },
+    {
+      "id": "6eadacf4-0354-4793-b2f5-bd8511bccf7f",
+      "coordinate": {
+        "row": 1,
+        "column": 6
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "0f35be49-dbe2-4ba5-a3e7-b66545440832",
+      "coordinate": {
+        "row": 2,
+        "column": 0
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "da9c8365-289c-4e14-abe2-3a9ad1e61d87",
+      "coordinate": {
+        "row": 2,
+        "column": 1
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "40dc2f45-0de8-4507-8565-ea8416783ed8",
+      "coordinate": {
+        "row": 2,
+        "column": 2
+      },
+      "type": {
+        "kind": "operator",
+        "value": "+"
+      }
+    },
+    {
+      "id": "9f7000f1-4330-4894-970f-f89807fcb608",
+      "coordinate": {
+        "row": 2,
+        "column": 3
+      },
+      "type": {
+        "kind": "fixedNumber",
+        "value": 4
+      }
+    },
+    {
+      "id": "33acc394-5c30-4b38-a6d9-db86b3258357",
+      "coordinate": {
+        "row": 2,
+        "column": 4
+      },
+      "type": {
+        "kind": "equals"
+      }
+    },
+    {
+      "id": "ad07e181-88f1-4f09-8f6e-563f7d767e8c",
+      "coordinate": {
+        "row": 2,
+        "column": 5
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "1796d094-d620-41de-8310-e63fd7e3ee6a",
+      "coordinate": {
+        "row": 2,
+        "column": 6
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "428a2e58-a07b-4435-bc29-fb32ec70a069",
+      "coordinate": {
+        "row": 3,
+        "column": 0
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "545ebc49-891a-4ce5-a04b-88adf2de2c4f",
+      "coordinate": {
+        "row": 3,
+        "column": 1
+      },
+      "type": {
+        "kind": "equals"
+      }
+    },
+    {
+      "id": "ffe2f311-f051-4ece-91e6-bd499e6c9d79",
+      "coordinate": {
+        "row": 3,
+        "column": 2
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "ac520a48-b709-4b04-89c4-933fe37cde18",
+      "coordinate": {
+        "row": 3,
+        "column": 3
+      },
+      "type": {
+        "kind": "equals"
+      }
+    },
+    {
+      "id": "b065389f-b9e7-4262-badf-b5f4946117af",
+      "coordinate": {
+        "row": 3,
+        "column": 4
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "e1b8a345-6a73-4279-8d8b-0e4d51a9ffe4",
+      "coordinate": {
+        "row": 3,
+        "column": 5
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "f64b1571-7c27-4a8a-8aa9-c7e0c52418a7",
+      "coordinate": {
+        "row": 3,
+        "column": 6
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "81c89965-a78e-4ef0-84ec-7ed6ed21af22",
+      "coordinate": {
+        "row": 4,
+        "column": 0
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "b9b67a25-85b7-4d25-bfe1-5e18562b57c9",
+      "coordinate": {
+        "row": 4,
+        "column": 1
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "b99a27c4-8ae0-45c8-955a-5645269c8e5b",
+      "coordinate": {
+        "row": 4,
+        "column": 2
+      },
+      "type": {
+        "kind": "operator",
+        "value": "+"
+      }
+    },
+    {
+      "id": "2e9f7540-35b8-4f82-8946-ce8341e3089b",
+      "coordinate": {
+        "row": 4,
+        "column": 3
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "94f232b7-d00f-4177-b887-044e0116c5e7",
+      "coordinate": {
+        "row": 4,
+        "column": 4
+      },
+      "type": {
+        "kind": "equals"
+      }
+    },
+    {
+      "id": "480862d8-0ed7-4f0c-a822-40a268cd9541",
+      "coordinate": {
+        "row": 4,
+        "column": 5
+      },
+      "type": {
+        "kind": "fixedNumber",
+        "value": 24
+      }
+    },
+    {
+      "id": "ceb6f4fa-dc1f-4d70-8d91-1450be13fc0f",
+      "coordinate": {
+        "row": 4,
+        "column": 6
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "c33e2703-2811-4673-8a12-4632f6b4d53a",
+      "coordinate": {
+        "row": 5,
+        "column": 0
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "a32cb537-37f4-486a-9e97-cd6aa45f71d3",
+      "coordinate": {
+        "row": 5,
+        "column": 1
+      },
+      "type": {
+        "kind": "operator",
+        "value": "\u00d7"
+      }
+    },
+    {
+      "id": "a5f2400f-e7d6-45ae-a4fa-2e907e2b2ee0",
+      "coordinate": {
+        "row": 5,
+        "column": 2
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "ef65bb1d-0dd4-4891-88f6-a403010597dd",
+      "coordinate": {
+        "row": 5,
+        "column": 3
+      },
+      "type": {
+        "kind": "equals"
+      }
+    },
+    {
+      "id": "fed731fc-db7d-4a0a-ad6a-047d97337524",
+      "coordinate": {
+        "row": 5,
+        "column": 4
+      },
+      "type": {
+        "kind": "emptySlot"
+      }
+    },
+    {
+      "id": "31b55c59-af59-463e-be64-ccdaa883e57a",
+      "coordinate": {
+        "row": 5,
+        "column": 5
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "id": "7e528df7-24cc-423a-a273-4471a38fee06",
+      "coordinate": {
+        "row": 5,
+        "column": 6
+      },
+      "type": {
+        "kind": "blocked"
+      }
+    }
+  ],
+  "equations": [
+    {
+      "direction": "horizontal",
+      "positions": [
+        {
+          "row": 0,
+          "column": 1
+        },
+        {
+          "row": 0,
+          "column": 2
+        },
+        {
+          "row": 0,
+          "column": 3
+        },
+        {
+          "row": 0,
+          "column": 4
+        },
+        {
+          "row": 0,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "direction": "horizontal",
+      "positions": [
+        {
+          "row": 1,
+          "column": 2
+        },
+        {
+          "row": 1,
+          "column": 3
+        },
+        {
+          "row": 1,
+          "column": 4
+        },
+        {
+          "row": 1,
+          "column": 5
+        },
+        {
+          "row": 1,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "direction": "horizontal",
+      "positions": [
+        {
+          "row": 2,
+          "column": 1
+        },
+        {
+          "row": 2,
+          "column": 2
+        },
+        {
+          "row": 2,
+          "column": 3
+        },
+        {
+          "row": 2,
+          "column": 4
+        },
+        {
+          "row": 2,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "direction": "horizontal",
+      "positions": [
+        {
+          "row": 4,
+          "column": 1
+        },
+        {
+          "row": 4,
+          "column": 2
+        },
+        {
+          "row": 4,
+          "column": 3
+        },
+        {
+          "row": 4,
+          "column": 4
+        },
+        {
+          "row": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "direction": "horizontal",
+      "positions": [
+        {
+          "row": 5,
+          "column": 0
+        },
+        {
+          "row": 5,
+          "column": 1
+        },
+        {
+          "row": 5,
+          "column": 2
+        },
+        {
+          "row": 5,
+          "column": 3
+        },
+        {
+          "row": 5,
+          "column": 4
+        }
+      ]
+    },
+    {
+      "direction": "vertical",
+      "positions": [
+        {
+          "row": 0,
+          "column": 1
+        },
+        {
+          "row": 1,
+          "column": 1
+        },
+        {
+          "row": 2,
+          "column": 1
+        },
+        {
+          "row": 3,
+          "column": 1
+        },
+        {
+          "row": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "direction": "vertical",
+      "positions": [
+        {
+          "row": 0,
+          "column": 3
+        },
+        {
+          "row": 1,
+          "column": 3
+        },
+        {
+          "row": 2,
+          "column": 3
+        },
+        {
+          "row": 3,
+          "column": 3
+        },
+        {
+          "row": 4,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "availableNumbers": [
+    3,
+    11,
+    6,
+    5,
+    11,
+    4,
+    8,
+    12,
+    12,
+    3,
+    4,
+    12
+  ]
+}

@@ -1,0 +1,240 @@
+
+Showing Recent Messages
+
+Prepare build
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/CrosswordView.o'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/CrosswordView.swiftconstvalues'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GameViewModel.o'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GameViewModel.swiftconstvalues'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/NumberBankView.o'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/NumberBankView.swiftconstvalues'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/TuistBundle+MathCrossword.o'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/TuistBundle+MathCrossword.swiftconstvalues'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/TuistStrings+MathCrossword.o'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/TuistStrings+MathCrossword.swiftconstvalues'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app/Frameworks'
+
+note: Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app/de.lproj/Localizable.strings'
+
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/CrosswordView.o'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/CrosswordView.swiftconstvalues'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GameViewModel.o'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GameViewModel.swiftconstvalues'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/NumberBankView.o'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/NumberBankView.swiftconstvalues'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/TuistBundle+MathCrossword.o'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/TuistBundle+MathCrossword.swiftconstvalues'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/TuistStrings+MathCrossword.o'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/TuistStrings+MathCrossword.swiftconstvalues'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app/Frameworks'
+
+
+Removed stale file '/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app/de.lproj/Localizable.strings'
+
+
+ComputePackagePrebuildTargetDependencyGraph
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'MathCrossword' in project 'MathCrossword' (no dependencies)
+
+Building targets in dependency order
+
+Target dependency graph (1 target)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+Build description signature: 5bf1fbaae757835d1a92edfab5717a18
+Build description path: /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/XCBuildData/5bf1fbaae757835d1a92edfab5717a18.xcbuilddata
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk /Users/oliverschaef/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.1-23B77-90cf18a4295e390e64c810bc6bd7acbc.sdkstatcache
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -o /Users/oliverschaef/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.1-23B77-90cf18a4295e390e64c810bc6bd7acbc.sdkstatcache
+
+
+Build target MathCrossword of project MathCrossword with configuration Debug
+
+WriteAuxiliaryFile /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword.SwiftFileList (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    write-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword.SwiftFileList
+
+WriteAuxiliaryFile /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword.SwiftConstValuesFileList (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    write-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword.LinkFileList (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    write-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword.LinkFileList
+
+WriteAuxiliaryFile /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword-OutputFileMap.json (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    write-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword.DependencyMetadataFileList (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    write-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword.DependencyMetadataFileList
+
+ProcessProductPackaging "" /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword.app-Simulated.xcent (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+    Entitlements:
+    
+    {
+    "application-identifier" = "FAKETEAMID.net.j4mos.MathCrossword";
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword.app-Simulated.xcent
+
+ProcessProductPackagingDER /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword.app-Simulated.xcent /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword.app-Simulated.xcent.der (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    /usr/bin/derq query -f xml -i /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword.app-Simulated.xcent -o /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword.app-Simulated.xcent.der --raw
+
+ProcessInfoPlistFile /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app/Info.plist /Users/oliverschaef/Developer/MathCrossword-app/Derived/InfoPlists/MathCrossword-Info.plist (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    builtin-infoPlistUtility /Users/oliverschaef/Developer/MathCrossword-app/Derived/InfoPlists/MathCrossword-Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app/Info.plist
+
+CpResource /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app/sample_puzzle_grade4_hard.json /Users/oliverschaef/Developer/MathCrossword-app/Resources/sample_puzzle_grade4_hard.json (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/oliverschaef/Developer/MathCrossword-app/Resources/sample_puzzle_grade4_hard.json /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/MathCrossword.app
+
+SwiftDriver MathCrossword normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MathCrossword -Onone -enforce-exclusivity\=checked @/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator -F /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/oliverschaef/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.1-23B77-90cf18a4295e390e64c810bc6bd7acbc.sdkstatcache -output-file-map /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword_const_extract_protocols.json -Xcc -iquote -Xcc /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword-generated-files.hmap -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword-own-target-headers.hmap -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword-all-target-headers.hmap -Xcc -iquote -Xcc /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword-project-headers.hmap -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/DerivedSources-normal/arm64 -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/DerivedSources/arm64 -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword-Swift.h -working-directory /Users/oliverschaef/Developer/MathCrossword-app -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal arm64 Compiling\ GameView.swift,\ BoardGridView.swift /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/GameView.swift /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/BoardGridView.swift (in target 'MathCrossword' from project 'MathCrossword')
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/GameView.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/BoardGridView.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 Compiling\ GridCell.swift,\ Equation.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/GridCell.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/Equation.swift (in target 'MathCrossword' from project 'MathCrossword')
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Models/GridCell.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Models/Equation.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 Compiling\ GradeLevel.swift,\ Puzzle.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/GradeLevel.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/Puzzle.swift (in target 'MathCrossword' from project 'MathCrossword')
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Models/GradeLevel.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Models/Puzzle.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 Compiling\ OperatorType.swift,\ CellType.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/OperatorType.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/CellType.swift (in target 'MathCrossword' from project 'MathCrossword')
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Models/OperatorType.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Models/CellType.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 Compiling\ StartView.swift,\ GridCoordinate.swift /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/StartView.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/GridCoordinate.swift (in target 'MathCrossword' from project 'MathCrossword')
+
+Failed frontend command:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/oliverschaef/Developer/MathCrossword-app/App/MathCrosswordApp.swift /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/ContentView.swift /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/GameView.swift /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/BoardGridView.swift -primary-file /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/StartView.swift -primary-file /Users/oliverschaef/Developer/MathCrossword-app/Models/GridCoordinate.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/OperatorType.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/CellType.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/GridCell.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/Equation.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/GradeLevel.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/Puzzle.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/PuzzleLoader.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/PuzzleRepository.swift -emit-dependencies-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/StartView.d -emit-const-values-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/StartView.swiftconstvalues -emit-reference-dependencies-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/StartView.swiftdeps -serialize-diagnostics-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/StartView.dia -emit-dependencies-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GridCoordinate.d -emit-const-values-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GridCoordinate.swiftconstvalues -emit-reference-dependencies-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GridCoordinate.swiftdeps -serialize-diagnostics-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GridCoordinate.dia -target arm64-apple-ios17.0-simulator -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libFoundationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#FoundationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libObservationMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#ObservationMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libPreviewsMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#PreviewsMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftMacros -load-resolved-plugin /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins/libSwiftUIMacros.dylib\#/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server\#SwiftUIMacros -disable-implicit-swift-modules -Xcc -fno-implicit-modules -Xcc -fno-implicit-module-maps -explicit-swift-module-map-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword-dependencies-1.json -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -I /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator -F /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator -no-color-diagnostics -Xcc -fno-color-diagnostics -enable-testing -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -serialize-debugging-options -const-gather-protocols-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/MathCrossword_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/oliverschaef/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/oliverschaef/Developer/MathCrossword-app -enable-anonymous-context-mangled-names -file-compilation-dir /Users/oliverschaef/Developer/MathCrossword-app -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -Xcc -ivfsstatcache -Xcc /Users/oliverschaef/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.1-23B77-90cf18a4295e390e64c810bc6bd7acbc.sdkstatcache -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword-generated-files.hmap -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword-own-target-headers.hmap -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword-all-target-headers.hmap -Xcc -iquote -Xcc /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/MathCrossword-project-headers.hmap -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/DerivedSources-normal/arm64 -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/DerivedSources/arm64 -Xcc -I/Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/DerivedSources -Xcc -DDEBUG\=1 -no-auto-bridging-header-chaining -module-name MathCrossword -frontend-parseable-output -disable-clang-spi -target-sdk-version 26.1 -target-sdk-name iphonesimulator26.1 -clang-target arm64-apple-ios26.1-simulator -in-process-plugin-server-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -o /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/StartView.o -o /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Build/Intermediates.noindex/MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GridCoordinate.o -index-unit-output-path /MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/StartView.o -index-unit-output-path /MathCrossword.build/Debug-iphonesimulator/MathCrossword.build/Objects-normal/arm64/GridCoordinate.o -index-store-path /Users/oliverschaef/Library/Developer/Xcode/DerivedData/MathCrossword-gampepplyrupxofcwfwzbvjaveex/Index.noindex/DataStore -index-system-modules
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/StartView.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+/Users/oliverschaef/Developer/MathCrossword-app/Features/Game/StartView.swift:50:14: error: instance method 'navigationDestination(item:destination:)' requires that 'Puzzle' conform to 'Hashable'
+            .navigationDestination(item: $activePuzzle) { puzzle in
+             ^
+SwiftUI.View.navigationDestination:2:25: note: where 'D' = 'Puzzle'
+nonisolated public func navigationDestination<D, C>(item: Binding<D?>, @ViewBuilder destination: @escaping (D) -> C) -> some View where D : Hashable, C : View
+                        ^
+
+/Users/oliverschaef/Developer/MathCrossword-app/Features/Game/StartView.swift:50:14: Instance method 'navigationDestination(item:destination:)' requires that 'Puzzle' conform to 'Hashable'
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Models/GridCoordinate.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 Compiling\ PuzzleRepository.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/PuzzleRepository.swift (in target 'MathCrossword' from project 'MathCrossword')
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Models/PuzzleRepository.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ MathCrossword (in target 'MathCrossword' from project 'MathCrossword')
+
+EmitSwiftModule normal arm64 (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 Compiling\ MathCrosswordApp.swift,\ ContentView.swift /Users/oliverschaef/Developer/MathCrossword-app/App/MathCrosswordApp.swift /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/ContentView.swift (in target 'MathCrossword' from project 'MathCrossword')
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/App/MathCrosswordApp.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 /Users/oliverschaef/Developer/MathCrossword-app/Features/Game/ContentView.swift (in target 'MathCrossword' from project 'MathCrossword')
+    cd /Users/oliverschaef/Developer/MathCrossword-app
+    
+
+SwiftCompile normal arm64 Compiling\ PuzzleLoader.swift /Users/oliverschaef/Developer/MathCrossword-app/Models/PuzzleLoader.swift (in target 'MathCrossword' from project 'MathCrossword')
+
+
+
+Build failed    15.11.25, 21:20    1.8 seconds
