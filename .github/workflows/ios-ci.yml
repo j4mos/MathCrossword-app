@@ -20,7 +20,7 @@ jobs:
           path: |
             ~/Library/Developer/Xcode/DerivedData
             .build
-          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') || 'nolock' }}
+          key: ${{ runner.os }}-spm
           restore-keys: |
             ${{ runner.os }}-spm-
 
