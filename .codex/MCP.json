@@ -7,10 +7,14 @@
         "GITHUB_TOKEN": "${{ env.GITHUB_MCP_PAT }}"
       }
     },
-    "contest7": {
-      "command": "contest7-mcp",
+    "context7": {
+      "command": "context7-mcp",
       "args": [],
       "env": {}
+    },
+    "XcodeBuildMCP": {
+      "command": "node",
+      "args": ["xcodebuildmcp"]
     }
   },
   "tools": [
@@ -18,8 +22,8 @@
     { "server": "github", "name": "fs.write" },
     { "server": "github", "name": "git.createPullRequest" },
     { "server": "github", "name": "git.commentPR" },
-    { "server": "contest7", "name": "knowledge.search" },
-    { "server": "contest7", "name": "rubric.apply" }
+    { "server": "context7", "name": "knowledge.search" },
+    { "server": "context7", "name": "rubric.apply" }
   ],
   "policies": {
     "maxTokens": 4000,
