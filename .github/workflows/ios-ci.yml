@@ -31,16 +31,17 @@ jobs:
             echo "SwiftLint not installed on runner; skipping."
           fi
 
-      - name: Build & Test (Simulator)
+      - name: Build & Test (Simulator, Engine tests)
         run: |
+          set -o pipefail
           mkdir -p artifacts
-          xcodebuild -workspace "MathCrossword.xcworkspace" \
-            -scheme "MathCrossword" \
+          xcodebuild \
+            -workspace "MathCrossword.xcworkspace" \
+            -scheme "MathCrosswordEngineTests" \
             -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=latest' \
             -enableCodeCoverage YES \
             -resultBundlePath artifacts/TestResults.xcresult \
-            clean test \
-            | xcpretty && exit ${PIPESTATUS[0]}
+            clean test | xcpretty
 
       - name: Coverage Gate (MathCrosswordEngine ≥ 0.90)
         run: |
@@ -56,7 +57,7 @@ print(target["lineCoverage"] if target else 0)
 PY
 )
           echo "MathCrosswordEngine coverage: $ENGINE_COV"
-          awk -v cov="$ENGINE_COV" 'BEGIN { if (cov+0 < 0.90) exit 1 }'
+          awk -v cov="$ENGINE_COV" 'BEGIN { if (cov+0 < 0.90) { print "Coverage below threshold"; exit 1 } }'
 
       - name: Coverage Report
         if: always()
