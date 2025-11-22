@@ -21,8 +21,10 @@ jobs:
           curl -Ls https://github.com/tuist/tuist/releases/download/${TUIST_VERSION}/tuist.zip -o /tmp/tuist.zip
           unzip -q /tmp/tuist.zip -d /tmp/tuist
           mkdir -p "$HOME/.tuist/bin"
-          mv /tmp/tuist/tuist "$HOME/.tuist/bin/tuist"
+          BIN=$(find /tmp/tuist -type f -name tuist -perm +111 | head -n 1)
+          mv "$BIN" "$HOME/.tuist/bin/tuist"
           chmod +x "$HOME/.tuist/bin/tuist"
+          export PATH="$HOME/.tuist/bin:$PATH"
           echo "$HOME/.tuist/bin" >> $GITHUB_PATH
           tuist version
 
