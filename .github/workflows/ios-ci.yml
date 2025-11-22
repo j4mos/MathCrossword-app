@@ -14,14 +14,32 @@ jobs:
       - name: Select Xcode
         run: sudo xcode-select -s /Applications/Xcode.app
 
+      - name: Install Tuist
+        run: |
+          set -e
+          TUIST_VERSION=4.27.0
+          curl -Ls https://github.com/tuist/tuist/releases/download/${TUIST_VERSION}/tuist.zip -o /tmp/tuist.zip
+          unzip -q /tmp/tuist.zip -d /tmp/tuist
+          mkdir -p "$HOME/.tuist/bin"
+          BIN=$(find /tmp/tuist -type f -name tuist -perm +111 | head -n 1)
+          mv "$BIN" "$HOME/.tuist/bin/tuist"
+          chmod +x "$HOME/.tuist/bin/tuist"
+          export PATH="$HOME/.tuist/bin:$PATH"
+          echo "$HOME/.tuist/bin" >> $GITHUB_PATH
+          tuist version
+
+      - name: Generate project
+        run: tuist generate
+
       - name: Cache SPM
         uses: actions/cache@v4
         with:
           path: |
             ~/Library/Developer/Xcode/DerivedData
             .build
-          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
-          restore-keys: ${{ runner.os }}-spm-
+          key: ${{ runner.os }}-spm
+          restore-keys: |
+            ${{ runner.os }}-spm-
 
       - name: Lint (SwiftLint optional)
         run: |
@@ -49,13 +67,7 @@ jobs:
           if [ ! -f "$FILE" ]; then
             echo "No xcresult found" && exit 1
           fi
-          ENGINE_COV=$(xcrun xccov view --report --json "$FILE" | python3 - <<'PY'
-import json, sys
-data = json.load(sys.stdin)
-target = next((t for t in data.get("targets", []) if t.get("name") == "MathCrosswordEngine"), None)
-print(target["lineCoverage"] if target else 0)
-PY
-)
+          ENGINE_COV=$(xcrun xccov view --report --json "$FILE" | python3 -c "import json,sys; data=json.load(sys.stdin); target=next((t for t in data.get('targets', []) if t.get('name')=='MathCrosswordEngine'), None); print(target['lineCoverage'] if target else 0)")
           echo "MathCrosswordEngine coverage: $ENGINE_COV"
           awk -v cov="$ENGINE_COV" 'BEGIN { if (cov+0 < 0.90) { print "Coverage below threshold"; exit 1 } }'
 
