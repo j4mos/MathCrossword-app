@@ -20,8 +20,9 @@ jobs:
           path: |
             ~/Library/Developer/Xcode/DerivedData
             .build
-          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
-          restore-keys: ${{ runner.os }}-spm-
+          key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') || 'nolock' }}
+          restore-keys: |
+            ${{ runner.os }}-spm-
 
       - name: Lint (SwiftLint optional)
         run: |
