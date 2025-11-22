@@ -16,7 +16,13 @@ jobs:
 
       - name: Install Tuist
         run: |
-          curl -Ls https://install.tuist.io | bash
+          set -e
+          TUIST_VERSION=4.27.0
+          curl -Ls https://github.com/tuist/tuist/releases/download/${TUIST_VERSION}/tuist.zip -o /tmp/tuist.zip
+          unzip -q /tmp/tuist.zip -d /tmp/tuist
+          mkdir -p "$HOME/.tuist/bin"
+          mv /tmp/tuist/tuist "$HOME/.tuist/bin/tuist"
+          chmod +x "$HOME/.tuist/bin/tuist"
           echo "$HOME/.tuist/bin" >> $GITHUB_PATH
           tuist version
 
