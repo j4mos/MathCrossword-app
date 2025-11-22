@@ -37,7 +37,7 @@ jobs:
           set -o pipefail
           mkdir -p artifacts
           xcodebuild \
-            -workspace "MathCrossword.xcworkspace" \
+            -project "MathCrossword.xcodeproj" \
             -scheme "MathCrosswordEngineTests" \
             -destination 'platform=iOS Simulator,name=iPhone 17 Pro,OS=latest' \
             -enableCodeCoverage YES \
